@@ -1,0 +1,36 @@
+// Variables et fonctions
+
+/* Couleurs */
+$white: #fff;
+$gray: #999;
+$black: #000;
+
+/* Styles fréquents */
+@mixin flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+// Position absolute
+@mixin absolute {
+    position: absolute;
+}
+
+@mixin absolute_complete {
+    @include absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+// Pseudos-éléments
+@mixin p_e_after($content: '') {
+    content: $content;
+    position: absolute;
+}
+
+@mixin p_e_before($content: '') {
+    content: $content;
+    position: absolute;
+}

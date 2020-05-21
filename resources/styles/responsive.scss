@@ -1,0 +1,19 @@
+// Responsive
+
+@import "./mixins.scss";
+
+@media (max-width: 1200px) {
+    // Ordinateurs larges
+}
+
+@media (max-width: 992px) {
+    // Ordinateurs
+}
+
+@media (max-width: 768px) {
+    // Tablette
+}
+
+@media (max-width: 576px) {
+    // Téléphone
+}
