@@ -9,6 +9,8 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "johnbillion/extended-cpts": "^4.3",
+        "wordplate/acf": "^8.2",
         "wordplate/framework": "^8.1"
     },
     "config": {
